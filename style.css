@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+    background: #221e1e;
+    
+}
+
+.container {
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group{
+    display: block;
+    margin: 0 auto;
+}
+
+.form-group input {
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(70, 60, 60);
+    color: white;
+}
+
+.form-group input:hover{
+    background-color: rgb(59, 52, 52);
+
+}
+
+.form-group input:focus{
+    background-color: rgb(59, 52, 52);
+
+}
+
+.form-group input::placeholder{
+    color: rgb(145, 133, 133);
+}
+
+.btn {
+    width: 60px;
+    height: 40px;
+    background-color: rgb(255, 174, 0);
+    color: white;
+
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+
+    transition: ease all .5s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 174, 0);
+    cursor: pointer;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 174, 0);
+}
+
+.recebendo-dados {
+    position: absolute;
+    top:150%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recebe-dados {
+    border: none;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+label {
+    color: rgb(255, 251, 0);
+    font-size: 14px;
+    padding:15px;
+}

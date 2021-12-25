@@ -8,3 +8,6 @@ Buscador de CEP consumindo Web Service do VIACEP.COM.BR 🎈
 * Javascript 🦸‍♂️
 * jQuery 💛
 * Sweet Alerts (Plugin) 🎉
+
+### Live Preview
+https://gabrielst03.github.io/buscador-de-cep/

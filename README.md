@@ -1,7 +1,8 @@
-# buscador-de-cep
+# Buscador de CEP - Web Service
 Buscador de CEP consumindo Web Service do VIACEP.COM.BR 🎈
 
-- Tecnologias Utilizadas
+
+## Tecnologias Utilizadas:
 * HTML 🦴
 * CSS 💅
 * Javascript 🦸‍♂️
